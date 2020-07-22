@@ -2,7 +2,11 @@
 
 I am currently working with C++ in Windows.
 
-### some of my projects
+### WIP projects
 * [Discord Message Analysis](https://github.com/Red-3D/Discord-message-analysis)
+* [Website](https://red-3d.github.io/)
+
+### Inactive projects
 * [Number Generators](https://github.com/Red-3D/Number_Generators)
-* [WIP Website](https://red-3d.github.io/)
+
+### Finished projects

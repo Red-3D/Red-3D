@@ -1,4 +1,4 @@
-# Hi, I am Red_3D and am creating silly projects
+# Hi, I am Red_3D, I love creating silly projects
 
 I am currently working with C++ in Windows.
 

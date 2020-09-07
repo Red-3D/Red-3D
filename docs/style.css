@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+    font-family: 'Inconsolata';font-size: 22px;
+    color: darkgrey;
+}
+
+#banner {
+    text-align: center;
+    font-weight: bold;
+    background-color:#FFFFFF16;
+    border-radius: 8px;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: radial-gradient(#282828, #080808);
+}
+
+h1 {
+    color: #e65757;
+    margin: 1%;
+    padding: 0;
+}
+
+p {
+    margin: 1%;
+    padding: 0;
+}
+
+hr {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(128, 128, 128, 128),rgba(0, 0, 0, 0));
+    border: 0px;
+    height: 1px;
+    margin: 0em;
+    border-width: 2px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 75%;
+    background-image: linear-gradient(to bottom, #00000000, black);
+    margin: 0em;
+}
+
+#blank {
+    height: 40px;
+    background: #00000000;
+}
+
+#github_mark {
+    position: fixed;
+    width: 20px;
+    right: 12px;
+    bottom: 10px;
+    background-color: #00000000;
+}
+
+#twitter_mark {
+    position: fixed;
+    width: 30px;
+    right: 40px;
+    bottom: 5px;
+    background-color: #00000000;
+}
+
+#youtube_mark {
+    position: fixed;
+    width: 20px;
+    right: 80px;
+    bottom: 10px;
+    background-color: #00000000;
+}
+
+#discord_mark {
+    position: fixed;
+    width: 20px;
+    right: 115px;
+    bottom: 10px;
+    background-color: #00000000;
+}

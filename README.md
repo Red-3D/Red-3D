@@ -10,6 +10,6 @@ I am currently working with C++ in Windows.
 * [Number Generators](https://github.com/Red-3D/Number_Generators)
 
 ### Inactive projects
-* [Website](https://red-3d.github.io/)
+* [Website](https://red-3d.github.io/Red-3D/)
 * [LW board converter](https://github.com/Red-3D/LW-board-converter)
 * [Discord Message Analysis](https://github.com/Red-3D/Discord-message-analysis)

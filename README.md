@@ -1,7 +1,5 @@
 # Hi, I am Red_3D and I love creating silly projects
 
-I am currently working with C++ in Windows.
-
 ### WIP projects
 * [Text Converters](https://github.com/Red-3D/Text-Converters)
 * [LW image boards](https://github.com/Red-3D/LW-image-boards)

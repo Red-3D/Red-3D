@@ -4,13 +4,6 @@ html {
     color: darkgrey;
 }
 
-#banner {
-    text-align: center;
-    font-weight: bold;
-    background-color:#FFFFFF16;
-    border-radius: 8px;
-}
-
 body {
     background-attachment: fixed;
     background-image: radial-gradient(#282828, #080808);
@@ -22,6 +15,11 @@ h1 {
     padding: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 p {
     margin: 1%;
     padding: 0;
@@ -29,15 +27,17 @@ p {
 
 hr {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(128, 128, 128, 128),rgba(0, 0, 0, 0));
-    border: 0px;
-    height: 1px;
+    height: 2px;
     margin: 0em;
-    border-width: 2px;
+    border-width: 0px;
+}
+
+br {
+    height: 2px;
 }
 
 footer {
     position: fixed;
-    text-align: center;
     bottom: 0px;
     left: 0px;
     width: 100%;
@@ -47,9 +47,21 @@ footer {
     margin: 0em;
 }
 
+#banner {
+    font-weight: bold;
+    background-color:#FFFFFF16;
+    border-radius: 8px;
+}
+
 #blank {
     height: 40px;
     background: #00000000;
+}
+
+#about {
+    width: 80%;
+    background: #FFFFFF16;
+    border-radius: 8px;
 }
 
 #github_mark {
@@ -77,6 +89,7 @@ footer {
 }
 
 #discord_mark {
+    cursor: pointer;
     position: fixed;
     width: 20px;
     right: 115px;

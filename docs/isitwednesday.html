@@ -1,1 +1,106 @@
-<p>No</p>
+<!DOCTYPE html>
+<html>
+	<link href="style.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+	<link rel="shortcut icon" href="pictures/logo.webp" />
+	<center>
+
+	<head>
+		<div id="banner">
+            <TITLE>Is it Wednesday?</TITLE>
+			<hr>
+			<h1>Is it Wednesday?</h1>
+			<hr>
+		</div>
+	</head>
+	
+	<body>
+        <br>
+        <div id="about">
+            <br>
+            <h2 id="thing">Loading...</h2>
+            <script>
+
+                var d = new Date();
+                var string;
+
+                if(d.getUTCDay() == 3){
+                    
+                    var div;
+                    var party;
+                    var link;
+
+                    document.getElementById("about").style = "background-image: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet,red,orange,yellow,green,blue,indigo,violet);"
+                    string = "It Is Wednesday My Dudes :D";
+                    
+                    //add Yes stuff
+                    div = document.createElement("div");
+                    div.className = "Party";
+                    div.style = "margin: auto;width: 60%;background: #FFFFFF16;border-radius: 8px;";
+                    document.body.appendChild(div)
+
+                    party = document.createElement("hr");
+                    div.appendChild(party);
+
+                    party = document.createElement("h3");
+                    party.innerHTML = "To celebrate this awesome day consider checking out some of these events:";
+                    party.appendChild;
+                    party.style="text-align: center;";
+                    div.appendChild(party);
+                    
+                    party = document.createElement("hr");
+                    div.appendChild(party);
+
+                    //https://logicworld.net/view/frm-devupdts
+                    link = document.createElement("a");
+                    link.href = "https://logicworld.net/view/frm-devupdts";
+
+                    party = document.createElement("p");
+                    party.innerHTML = "Logic World Wednesday";
+                    party.style = "text-align: center;text-decoration: underline;";
+
+                    link.appendChild(party);
+                    div.appendChild(link);
+                    
+
+                    //https://xkcd.com/
+                    link = document.createElement("a");
+                    link.href = "https://xkcd.com/";
+
+                    party = document.createElement("p");
+                    party.innerHTML = "xkcd";
+                    party.style = "text-align: center;text-decoration: underline;";
+
+                    link.appendChild(party);
+                    div.appendChild(link);
+
+                    party = document.createElement("br");
+                    div.appendChild(party);
+
+                    document.getElementById("thing").style = "color:White;text-shadow: 2px 2px #000000;";
+                }
+
+                else {
+                    string = "No";
+                    
+                    //add No stuff
+                }
+                document.getElementById("thing").innerHTML = string
+            </script>
+            <br>
+        </div>
+        <br>
+
+	</body>
+
+	<footer>
+		<hr id="blank">
+		<p>Feet</p>
+		<a href="https://github.com/Red-3D"><img id = "github_mark" src="icons/icon_github.svg" title="Github"></a>
+		<a href="https://twitter.com/Red__3D"><img id = "twitter_mark" src="icons/icon_twitter.svg" title="Twitter"></a>
+		<a href="https://www.youtube.com/channel/UCqscv6Y-W9mXPGstnBzn6GA/"><img id = "youtube_mark" src="icons/icon_youtube.svg" title="Youtube"></a>
+		<a onclick="alert('Red_3D#3062')"><img id = "discord_mark" src="icons/icon_discord.svg" title="Discord"></a>
+	</footer>
+
+</center>
+</html>

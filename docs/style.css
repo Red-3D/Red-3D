@@ -6,11 +6,11 @@ html {
 
 body {
     background-attachment: fixed;
-    background-image: radial-gradient(#282828, #080808);
+    background-image: radial-gradient(#282828, #0F0F0F);
 }
 
 h1 {
-    color: #e65757;
+    color: #bd3737;
     margin: 1%;
     padding: 0;
 }
@@ -47,6 +47,19 @@ footer {
     margin: 0em;
 }
 
+.projects {
+    color: lightblue;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.project {
+    background: #FFFFFF16;
+    border-radius: 5px;
+}
+
 #banner {
     font-weight: bold;
     background-color:#FFFFFF16;
@@ -62,6 +75,10 @@ footer {
     width: 80%;
     background: #FFFFFF16;
     border-radius: 8px;
+}
+
+#home {
+    color: #bd3737;
 }
 
 #github_mark {
